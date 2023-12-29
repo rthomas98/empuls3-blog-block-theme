@@ -1,0 +1,67 @@
+/* Editor Styles */
+
+/* Body Text */
+.editor-styles-wrapper {
+    font-family: Arial, sans-serif; /* Adjust to match your theme's font */
+    font-size: 16px; /* Adjust to match your theme's text size */
+    color: #333333; /* Adjust to match your theme's text color */
+    line-height: 1.6; /* Adjust to match your theme's line height */
+}
+
+/* Headings */
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+    color: #333333; /* Adjust to match your theme's heading color */
+}
+
+.editor-styles-wrapper h1 { font-size: 2em; }
+.editor-styles-wrapper h2 { font-size: 1.75em; }
+.editor-styles-wrapper h3 { font-size: 1.5em; }
+/* Continue for h4, h5, h6 with appropriate sizes */
+
+/* Links */
+.editor-styles-wrapper a {
+    color: #0073aa; /* Adjust to match your theme's link color */
+    text-decoration: underline;
+}
+
+/* Blockquotes */
+.editor-styles-wrapper blockquote {
+    border-left: 4px solid #cccccc; /* Adjust to match your theme's style */
+    margin-left: 0;
+    padding-left: 1em;
+    color: #666666; /* Adjust to match your theme's style */
+    font-style: italic;
+}
+
+/* Lists */
+.editor-styles-wrapper ul,
+.editor-styles-wrapper ol {
+    margin-left: 2em;
+}
+
+/* Images and Media */
+.editor-styles-wrapper img,
+.editor-styles-wrapper figure {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+.editor-styles-wrapper .wp-block-button__link {
+    background-color: #0073aa; /* Adjust to match your theme's button color */
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* Custom Classes */
+/* If you have custom classes in your theme, replicate them here. */
+.editor-styles-wrapper .my-custom-class {
+    /* Custom styles */
+}
